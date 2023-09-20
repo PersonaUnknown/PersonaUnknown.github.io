@@ -3389,7 +3389,7 @@ body.is-touch .tiles article .content {
 
 /* Name, Profession, Contact Info */
 #main-id {
-    font-size: 46px;
+    font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     float:left;
@@ -3402,7 +3402,7 @@ body.is-touch .tiles article .content {
 }
 
 #phone {
-    font-size: 32px;
+    font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
