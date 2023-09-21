@@ -3430,6 +3430,14 @@ body {
     color: #0099cc;
 }
 
+.skills {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 /* Name, Profession, Contact Info */
 #main-id {
     font-size: xx-large;

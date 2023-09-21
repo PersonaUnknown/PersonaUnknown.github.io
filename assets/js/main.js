@@ -19,7 +19,7 @@ var dynText = document.getElementById("main-dyn-text");
 dynText.addEventListener("animationiteration", function(e) {
 	if (dynText.getBoundingClientRect().width <= 5)
 	{
-		dynText.innerHTML = eSpan + textCombos[index][0] + tSpan + textCombos[index][1];
+		dynText.innerHTML = eSpan + textCombos[index][0] + tSpan + textCombos[index][1] + ".";
 		index = (index + 1) % (textCombos.length);
 	}
 });
