@@ -98,10 +98,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    background: #1C5383;
-}
-
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -3372,19 +3368,66 @@ body.is-touch .tiles article .content {
     }
 
 /* Top Section Background / Dimensions */
+body {
+    background: #234E70;
+    font-family: "Oxygen", serif;
+}
+
 #top {
     width: 100%;
     display: flex;
-    background-color: #058ED9;
+    background-color: #FBF8BE;
     padding-bottom: 10px;
 }
 
 .left {
-    width: 50%;
+    width: 33%;
+}
+
+.center {
+    width: 33%;
 }
 
 .right {
+    width: 33%;
+}
+
+.text-wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    padding-top: 2%;
+}
+
+.text-wrapper .static-text {
+    text-align: right;
+    padding-bottom: 1%;
     width: 50%;
+}
+
+.text-wrapper .dynamic-text {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 1%;
+    width: 35%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 2s infinite alternate;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+
+.E {
+    color: #cc313d;
+}
+
+.T {
+    color: #0099cc;
 }
 
 /* Name, Profession, Contact Info */

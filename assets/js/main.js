@@ -4,6 +4,26 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+const eSpan = "<span class = \"E\">E</span>";
+const tSpan = "<span class = \"T\">T</span>";
+
+const textCombos = [
+	["ric ", "abuchi"],
+	["laborate & ", "horough"],
+	["fficient & ", "imely"],
+	["arnest & ", "rustworthy"],
+	["nergetic & ","ireless"],
+];
+var index = 1;
+var dynText = document.getElementById("main-dyn-text");
+dynText.addEventListener("animationiteration", function(e) {
+	if (dynText.getBoundingClientRect().width <= 5)
+	{
+		dynText.innerHTML = eSpan + textCombos[index][0] + tSpan + textCombos[index][1];
+		index = (index + 1) % (textCombos.length);
+	}
+});
+
 (function($) {
 
 	var	$window = $(window),
