@@ -6,23 +6,76 @@
 
 const eSpan = "<span class = \"E\">E</span>";
 const tSpan = "<span class = \"T\">T</span>";
+var startMessage = eSpan + " " + tSpan;
+var eMess = "";
+var tMess = "";
 
 const textCombos = [
-	["ric ", "abuchi"],
-	["laborate & ", "horough"],
-	["fficient & ", "imely"],
-	["arnest & ", "rustworthy"],
-	["nergetic & ","ireless"],
+	["ric   ", "abuchi"],
+	["laborate", "enacious"],
+	["fficient", "rustable"],
+	["xceptional", "rustworthy"],
+	["loquent","rusting"],
 ];
 var index = 1;
 var dynText = document.getElementById("main-dyn-text");
-dynText.addEventListener("animationiteration", function(e) {
-	if (dynText.getBoundingClientRect().width <= 5)
+revealText();
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function revealText() 
+{
+	var index0 = 0;
+	var index1 = 0;
+	phrase0 = textCombos[index][0];
+	phrase1 = textCombos[index][1];
+	var mess0 = "";
+	var mess1 = "";
+
+	await sleep(100)
+	
+	while(index0 < phrase0.length || index1 < phrase1.length)
 	{
-		dynText.innerHTML = eSpan + textCombos[index][0] + tSpan + textCombos[index][1] + ".";
-		index = (index + 1) % (textCombos.length);
+		if (index0 < phrase0.length)
+		{
+			mess0 += phrase0[index0];
+			index0++;
+		}
+
+		if (index1 < phrase1.length)
+		{
+			mess1 += phrase1[index1];
+			index1++;
+		}
+
+		eMess = eSpan + mess0;
+		tMess = tSpan + mess1;
+		dynText.innerHTML = eMess + "<br>" + tMess;
+		await sleep(100)
 	}
-});
+
+	await sleep(1000)
+	deleteText();
+}
+
+async function deleteText() 
+{
+	length = Math.max(textCombos[index][0].length,textCombos[index][1].length);
+	while(length > 0)
+	{
+		eMess = eMess.slice(0,-1);
+		tMess = tMess.slice(0,-1);
+		length--;
+		dynText.innerHTML = eMess + "<br>" + tMess;
+		await sleep(100)
+	}
+
+	index = (index + 1) % textCombos.length;
+	await sleep(1000);
+	revealText();
+}
 
 (function($) {
 

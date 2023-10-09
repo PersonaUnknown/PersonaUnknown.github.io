@@ -3393,34 +3393,18 @@ body {
 }
 
 .text-wrapper {
-    display: flex;
-    align-items: center;
+    text-align: center;
     font-size: 3em;
     padding-top: 2%;
-}
-
-.text-wrapper .static-text {
-    text-align: right;
-    padding-bottom: 1%;
-    width: 50%;
+    padding-bottom: 2%;
 }
 
 .text-wrapper .dynamic-text {
-    margin: 0;
     padding: 0;
     padding-bottom: 1%;
-    width: 35%;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 3px solid;
-    animation: typing 2s infinite alternate;
+    text-align: left;
+    display: inline-block;
 }
-
-@keyframes typing {
-    from {
-      width: 0
-    }
-  }
 
 .E {
     color: #cc313d;
@@ -3428,6 +3412,10 @@ body {
 
 .T {
     color: #0099cc;
+}
+
+hr {
+    background-color: black;
 }
 
 .skills {
