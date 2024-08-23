@@ -1,0 +1,125 @@
+/* Fonts */
+.Outfit {
+  font-family: "Outfit", serif;
+}
+.RobotoSerif {
+  font-family: "Roboto Serif", serif;
+}
+/* Navbar */
+.NavBar {
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: antiquewhite;
+  z-index: 3;
+}
+.NavBarButton {
+  font-family: "Outfit", serif;
+  border-color: transparent;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+.NavBar button {
+  transition: 0.5s ease;
+}
+.NavBar button:hover {
+  color: #0a66c2;
+  scale: 1.1;
+}
+/* Hover Card */
+.HoverCard {
+  scale: 1;
+  transition: 0.5s ease;
+  cursor: pointer;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 5px 5px #0a66c2;
+}
+.HoverCard:hover {
+  scale: 1.1;
+}
+.HoverCard img{
+  display: 'block'; 
+  width: auto;
+  height: 100%;
+  margin: auto;
+  opacity: 0.25;
+  transition: 0.5s ease;
+}
+.HoverCard:hover img {
+  opacity: 1;
+}
+.HoverCard div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  font-size: 8em;
+}
+.HoverCard .HoverCardDescription {
+  display: none;
+  transition: 0.5s ease;
+}
+.HoverCard:hover .HoverCardDescription {
+  display: block;
+}
+/* Header */
+.OutlineButton {
+  border: 2px solid black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.Header .ResumeButton {
+  background-color: black;
+  border-color: transparent;
+  transition: 0.25s ease;
+}
+.ResumeButton:hover {
+  background-color: #0a66c2;
+  border-color: transparent;
+  scale: 1.1;
+}
+.MediaButton {
+  display: flex;
+  transition: 0.25s ease;
+}
+.MediaButton:hover {
+  scale: 1.1;
+}
+.MediaButton img {
+  object-fit: cover;
+}
+/* Skills */
+.SkillIcon {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+.SkillIcon:hover {
+  scale: 1.1;
+}
+/* Return Back To Start Button */
+.ReturnButton {
+  transition: 0.25s ease;
+}
+.ReturnButton:hover {
+  scale: 1.1;
+}

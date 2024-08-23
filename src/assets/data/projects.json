@@ -1,0 +1,57 @@
+[
+    {
+        "label": "Chisel Ibex",
+        "description": "Recreated parts of a RISC-V processor written in SystemVerilog into the Chisel HDL to investigate the capabilities of Chisel and how effective it is at learning hardware design.",
+        "link": "https://github.com/PersonaUnknown/ChiselIbex"
+    },
+    {
+        "label": "Simplified DES CMOS Chip",
+        "description": "Developed CMOS Chip in Cadence Virtuoso to encrypt 8-bit data. Designed simulations and layout components to fit within 1.5mm x 1.5mm chip.",
+        "link": "https://docs.google.com/document/d/1DQvdrlmWgg2zUxt4koQd0yBKnoxdFyAYcZhccCQtUAI/edit?usp=sharing"
+    },
+    {
+        "label": "Oscilloscope Simulation",
+        "description": "Created a 32-bit microcontroller that plots serial data using Python Tkinter and VHDL.",
+        "link": "https://github.com/PersonaUnknown/Oscilloscope_SP23"
+    },
+    {
+        "label": "Gemini Proact",
+        "description": "Developed an Android app for the 2024 Gemini API Developer Competition. Created using Flutter and leverages the Gemini LLM to create personalized tasks to help the environement.",
+        "link": "https://github.com/hoanghm/Proact"
+    },
+    {
+        "label": "Billionaire Statistics",
+        "description": "Utilized D3.js to visualize and display billionaire statistics based on demographic, industry, and location.",
+        "link": "https://csex57.github.io/billionaires/"
+    },
+    {
+        "label": "ARC",
+        "description": "Backend and UI Programmer for an iOS app (Swift) where users record and share AR videos.",
+        "link": "https://apps.apple.com/gb/app/arcraft-play-in-real-life/id6446920916"
+    },
+    {
+        "label": "Catch Me If You Can!",
+        "description": "An iOS game (Swift) where users seek out each other in an alternative form of tag.",
+        "link": "https://github.com/PersonaUnknown/Catch-Me-If-You-Can"
+    },
+    {
+        "label": "Stumpy",
+        "description": "Lead gameplay programmer for this STL Game Jam 2023 entry (C#) where the player must help a tree collect as much water before it dies.",
+        "link": "https://v3.globalgamejam.org/2023/games/stumpy-4"
+    },
+    {
+        "label": "Grinch",
+        "description": "Level designer and gameplay programmer for an endless runner Unity project.",
+        "link": "https://naveldum.itch.io/project-grinch"
+    },
+    {
+        "label": "Defuse the Situation",
+        "description": "Level Designer and Gameplay Programmer for an FPS Unity game where users must ascend a building before it explodes.",
+        "link": "https://naveldum.itch.io/fps-proto"
+    },
+    {
+        "label": "Bad Apple",
+        "description": "Created an Atari 2600 game in 6502 assembly language where the goal is to catch falling apples before they hit the ground.",
+        "link": "https://github.com/PersonaUnknown/BadApple_2600"
+    }
+]
