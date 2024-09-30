@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.50b9f897.css",
-    "main.js": "/static/js/main.684bda53.js",
+    "main.js": "/static/js/main.55746980.js",
     "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
     "static/media/Oscilloscope Simulation.png": "/static/media/Oscilloscope Simulation.e2e17f3adc25e62833cb.png",
     "static/media/profile.jpg": "/static/media/profile.01b199a75e8e999bd159.jpg",
@@ -26,11 +26,11 @@
     "index.html": "/index.html",
     "static/media/gmail.svg": "/static/media/gmail.3ff71191cefc827d4fc11cbc9efac99e.svg",
     "main.50b9f897.css.map": "/static/css/main.50b9f897.css.map",
-    "main.684bda53.js.map": "/static/js/main.684bda53.js.map",
+    "main.55746980.js.map": "/static/js/main.55746980.js.map",
     "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50b9f897.css",
-    "static/js/main.684bda53.js"
+    "static/js/main.55746980.js"
   ]
 }
