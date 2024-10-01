@@ -1,5 +1,10 @@
 [
     {
+        "label": "Bordlelands",
+        "description": "A Wordle-inspired website where users can guess items from the Borderlands videogame series. Created using TypeScript and React, with data collected using Beautiful Soup and Selenium.",
+        "link": "https://eric-tabuchi.com/Bordlelands/"
+    },
+    {
         "label": "Chisel Ibex",
         "description": "Recreated parts of a RISC-V processor written in SystemVerilog into the Chisel HDL to investigate the capabilities of Chisel and how effective it is at learning hardware design.",
         "link": "https://github.com/PersonaUnknown/ChiselIbex"

@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "1.0.0",
-  "homepage": "https://eric-tabuchi.com",
+  "homepage": "https://eric-tabuchi.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
