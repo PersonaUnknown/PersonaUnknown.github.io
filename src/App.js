@@ -69,7 +69,7 @@ function App() {
       >
         <Modal.Body style={{marginLeft: 'auto', marginRight: 'auto'}}>
           <iframe
-            src="https://drive.google.com/file/d/1ZCVSPkfPUmq84GB1SXQkKJut_rOMlncX/preview" 
+            src="https://drive.google.com/file/d/1BY5Y7c5-DzDnD5DNcf_VYx0_jZMY3b_s/preview" 
             title='resume'
             style={{
               width: isMobile ? width * 0.8: 826,
